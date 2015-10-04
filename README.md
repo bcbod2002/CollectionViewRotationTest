@@ -2,7 +2,7 @@ CollectionViewRotation is an example to make visible cell always visible while r
 
 In this sample UICollectionView is build with 『Storyboard』 and UICollectionViewCell is on the 『Storyboard』 too. This sample UICollectionView scrolling is set by 『Scrolling Enabled』 and 『Paging Enable』. 
 
-If you don't want to use 『Paging Enable』 you should override 
+If you don't want to use 『Paging Enable』 you should override <br>
 『-(CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity』 with different implementation. This sample is made for 『Paging Enable』
 
 UICollectionViewCell is use the custom class 『TestCollectionViewCell』, and the UICollectionViewFlowLayout is use the custom class 『TestFlowLayout』.
