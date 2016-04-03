@@ -15,8 +15,10 @@
 		FC8C38C01BC1542A00FF0D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8C38BE1BC1542A00FF0D25 /* LaunchScreen.storyboard */; };
 		FC8C38CB1BC1542A00FF0D25 /* CollectionViewRotationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38CA1BC1542A00FF0D25 /* CollectionViewRotationTestTests.m */; };
 		FC8C38D61BC1542A00FF0D25 /* CollectionViewRotationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38D51BC1542A00FF0D25 /* CollectionViewRotationTestUITests.m */; };
-		FC8C38E51BC1574200FF0D25 /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38E41BC1574200FF0D25 /* TestCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		FC8C38E81BC1590600FF0D25 /* TestFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38E71BC1590600FF0D25 /* TestFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		FC8C38E51BC1574200FF0D25 /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38E41BC1574200FF0D25 /* TestCollectionViewCell.m */; };
+		FC8C38E81BC1590600FF0D25 /* TestFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C38E71BC1590600FF0D25 /* TestFlowLayout.m */; };
+		FCE535A01CB101070062B631 /* TestCollectionViewCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5359F1CB101070062B631 /* TestCollectionViewCellTest.m */; };
+		FCE535A21CB106020062B631 /* TestFlowLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE535A11CB106020062B631 /* TestFlowLayoutTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		FC8C38E41BC1574200FF0D25 /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
 		FC8C38E61BC1590600FF0D25 /* TestFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlowLayout.h; sourceTree = "<group>"; };
 		FC8C38E71BC1590600FF0D25 /* TestFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFlowLayout.m; sourceTree = "<group>"; };
+		FCE5359F1CB101070062B631 /* TestCollectionViewCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCellTest.m; sourceTree = "<group>"; };
+		FCE535A11CB106020062B631 /* TestFlowLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFlowLayoutTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				FC8C38CA1BC1542A00FF0D25 /* CollectionViewRotationTestTests.m */,
+				FCE5359F1CB101070062B631 /* TestCollectionViewCellTest.m */,
 				FC8C38CC1BC1542A00FF0D25 /* Info.plist */,
+				FCE535A11CB106020062B631 /* TestFlowLayoutTest.m */,
 			);
 			path = CollectionViewRotationTestTests;
 			sourceTree = "<group>";
@@ -295,6 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE535A01CB101070062B631 /* TestCollectionViewCellTest.m in Sources */,
+				FCE535A21CB106020062B631 /* TestFlowLayoutTest.m in Sources */,
 				FC8C38CB1BC1542A00FF0D25 /* CollectionViewRotationTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +519,7 @@
 				FC8C38DC1BC1542A00FF0D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8C38DD1BC1542A00FF0D25 /* Build configuration list for PBXNativeTarget "CollectionViewRotationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				FC8C38DF1BC1542A00FF0D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8C38E01BC1542A00FF0D25 /* Build configuration list for PBXNativeTarget "CollectionViewRotationTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				FC8C38E21BC1542A00FF0D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

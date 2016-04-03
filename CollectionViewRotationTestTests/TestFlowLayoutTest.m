@@ -1,28 +1,28 @@
 //
-//  CollectionViewRotationTestTests.m
-//  CollectionViewRotationTestTests
+//  TestFlowLayoutTest.m
+//  CollectionViewRotationTest
 //
-//  Created by Goston on 2015/10/4.
-//  Copyright © 2015年 GostonWu. All rights reserved.
+//  Created by Goston on 2016/4/3.
+//  Copyright © 2016年 GostonWu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "ViewController.h"
+#import "TestFlowLayout.h"
 
-@interface CollectionViewRotationTestTests : XCTestCase
+@interface TestFlowLayoutTest : XCTestCase
 
 @end
 
-@implementation CollectionViewRotationTestTests
+@implementation TestFlowLayoutTest
 {
-    ViewController *viewController;
+    TestFlowLayout *testFlowLayout;
 }
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
-    viewController = [[ViewController alloc] init];
+    testFlowLayout = [[TestFlowLayout alloc] init];
 }
 
 - (void)tearDown {
@@ -34,8 +34,8 @@
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    UICollectionView *testCollectionView = [viewController testCollectionView];
-    printf("testCollectionView = %@", testCollectionView);
+    NSInteger gotPage = [testFlowLayout page];
+    printf("gotPage = %ld", (long)gotPage);
 }
 
 - (void)testPerformanceExample {
