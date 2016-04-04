@@ -1,5 +1,7 @@
 CollectionViewRotation is an example to make visible cell always visible while rotating interface orientation.
 
+<img src="https://raw.githubusercontent.com/bcbod2002/CollectionViewRotationTest/master/CollectionViewRotate.gif">
+
 In this sample UICollectionView is build with 『Storyboard』 and UICollectionViewCell is on the 『Storyboard』 too. This sample UICollectionView scrolling is set by 『Scrolling Enabled』 and 『Paging Enable』. 
 
 If you don't want to use 『Paging Enable』 you should override <br>
